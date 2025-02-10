@@ -4,7 +4,7 @@ body {
    padding: 0;
    background-color: black;
    color: white;
-   font-family: Arial, sans-serif;
+   font-family: SpaceColony-Bold;
    min-height: 100vh;
    height: 100vh; /* фиксированная высота */
    display: flex;
@@ -12,6 +12,16 @@ body {
    align-items: center;
    overflow: hidden; /* убираем скролл */
 }
+
+@font-face {
+   font-family: 'SpaceColony-Bold';
+   src: url('./SpaceColony-Bold.woff2') format('woff2'),
+        url('SpaceColony-Bold.ttf') format('woff'),
+        url('SpaceColony-Bold\ \(1\).otf') format('truetype');
+   font-weight: bold;
+   font-style: normal;
+}
+
 
 body,
 html {
@@ -58,6 +68,8 @@ canvas {
    width: 18%;
    height: auto;
    margin: 5px 0;
+   font-family: SpaceColony-Bold;
+   font-size: 32px;
 }
 
 /* Единые стили для слогана */
