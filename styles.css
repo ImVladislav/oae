@@ -211,10 +211,10 @@ canvas {
    transition: transform 0.2s;
 }
 
-.icons a:nth-child(3) img {
+/* .icons a:nth-child(3) img {
    width: 150px;
    height: 150px;
-}
+} */
 
 .icons img:hover {
    transform: scale(1.1);
@@ -276,10 +276,10 @@ h1 {
       height: 39px;
    }
 
-   .icons a:nth-child(3) img {
+   /* .icons a:nth-child(3) img {
       width: 80px;
       height: 80px;
-   }
+   } */
 }
 
 /* Добавляем медиа-запрос для очень маленьких экранов */
@@ -319,10 +319,10 @@ h1 {
       height: 33px;
    }
 
-   .icons a:nth-child(3) img {
+   /* .icons a:nth-child(3) img {
       width: 70px;
       height: 70px;
-   }
+   } */
 }
 
 /* Добавляем контейнер для частиц */
